@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SecondActivity"
@@ -21,4 +26,35 @@
         android:text="@string/increase_btn"
         android:layout_margin="@dimen/default_margin" />
 
+    <TextView
+        android:id="@+id/counter_second_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="100500 "
+        android:textSize="@dimen/counter_text_size"
+        android:layout_margin="@dimen/default_margin" />
+
+    <Button
+        android:id="@+id/increase_second_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/increase_btn"
+        android:layout_margin="@dimen/default_margin" />
+
+    <TextView
+        android:id="@+id/counter_third_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="100500 "
+        android:textSize="@dimen/counter_text_size"
+        android:layout_margin="@dimen/default_margin" />
+
+    <Button
+        android:id="@+id/increase_third_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/increase_btn"
+        android:layout_margin="@dimen/default_margin" />
+
 </LinearLayout>
+</androidx.core.widget.NestedScrollView>
